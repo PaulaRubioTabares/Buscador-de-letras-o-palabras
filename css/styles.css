@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    margin: 0;
+    background-color: #f5f5ef;
+}
+
+.capa{
+    position: absolute;
+    top:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.capa_main {
+    width: 70%;
+}
+
+.ayuda{
+    text-align: center;
+    font-style: italic;
+    color: #aaa;
+}
+.input_main{
+    width: 100%;
+    display: block;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid #686767;
+    outline: none;
+    margin-bottom: 3rem;
+}
+
+.texto_main{
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.buscar{
+    background-color: #cfb2eb;
+    padding-top: 1px;
+}
+
